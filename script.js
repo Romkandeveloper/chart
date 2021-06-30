@@ -12,10 +12,10 @@ document.querySelector('.number__middle').textContent = maxNumber / 2;
         barItem.setAttribute('data-percent', numbers[i]);
         barItem.style.height = numbers[i]/maxNumber*100 + "%";
         if (numbers[i] <= 5){
-            barItem.style.backgroundColor = 'green';
+            barItem.style.backgroundColor = '#0ea300';
         }else if (numbers[i] <= 10){
-            barItem.style.backgroundColor = 'yellow';
-        }else barItem.style.backgroundColor = 'red';
+            barItem.style.backgroundColor = '#a3a000';
+        }else barItem.style.backgroundColor = '#a30000';
         li.prepend(barItem);
         /*span*/
         let span = document.createElement('span');
