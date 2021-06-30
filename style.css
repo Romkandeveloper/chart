@@ -62,13 +62,11 @@ ul{
 .bar{
     cursor: pointer;
     width: 100%;
-    background-color: #17C0EB;
     height: 50%;
     position: relative;
     transition: .1s ease-in;
 }
 .bar:hover{
-    background-color: #0492b6;
     box-shadow: 0 0 5px 0 #0492b6;
     transform: scale(1.1);
 }
